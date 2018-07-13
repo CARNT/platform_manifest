@@ -65,17 +65,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-  <!-- ABC VENDOR -->
-  <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="abc" revision="o2" />
+  <!-- CARNTED ABC VENDOR -->
+  <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="me" revision="o81" />
 
 
 
