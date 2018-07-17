@@ -69,6 +69,8 @@
   <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="me" revision="o81" />
   <project path="vendor/google" name="platform_vendor_google" remote="me" revision="o81" />
 
+  <!-- CARNTED ABC DEVICE -->
+  <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="me" revision="o81" />
 
 
 
@@ -77,7 +79,6 @@
 
   <!-- FWHEM DEVICE -->
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="trees" revision="o81" />
-  <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="trees" revision="o81" />
 
   <!-- FWHEM CLANG -->
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="fwhem" revision="o81"/>
