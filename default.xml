@@ -48,10 +48,11 @@
 
 
 
-  <!-- STARTING OVER-->
+  <!-- CARNTED MANIFEST-->
   <project path="manifest" name="platform_manifest" remote="me" revision="o81" />
 
-  <project path="build/make" name="platform_build_make" groups="pdk" remote="davall" revision="o2" >
+   <!-- CARNTED BUILD-->
+  <project path="build/make" name="platform_build_make" groups="pdk" remote="me" revision="o81" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -60,10 +61,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
-
-
-
 
   <!-- CARNTED ABC VENDOR -->
   <project path="vendor/nexus" name="abc_vendor_nexus" groups="pdk" remote="me" revision="o81" />
