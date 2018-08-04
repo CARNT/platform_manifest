@@ -79,12 +79,12 @@
   <!-- CARNTED ABC SETTINGS -->
   <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="me" revision="o81" />
 
+  <!-- CARNTED DEVICE -->
+  <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="me" revision="o81" />
 
 
 
 
-  <!-- FWHEM DEVICE -->
-  <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="trees" revision="o81" />
 
   <!-- FWHEM CLANG -->
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="fwhem" revision="o81"/>
